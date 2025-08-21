@@ -1,0 +1,44 @@
+/* FICA SOB SUA RESPONSABILIDADE CRIAR O LAYOUT DO SISTEMA */
+body{
+    color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+button{
+    padding: 4px;
+    margin: 0 0 0 0;
+    align-content: center;
+
+}
+.delete-button{
+    background-color: blue;
+}
+li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input{
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    margin:0;
+    
+}
+
+.container{
+    text-align: center;
+    line-height: 2;
+    padding: 3px;
+    background-color: red;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    
+}
